@@ -93,6 +93,14 @@
     <Compile Include="RoomBookingPriceWithDate.Designer.cs">
       <DependentUpon>RoomBookingPriceWithDate.cs</DependentUpon>
     </Compile>
+    <Compile Include="room_booking.cs">
+      <DependentUpon>room_booking.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="room_booking.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>room_booking.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +139,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="room_booking.xsc">
+      <DependentUpon>room_booking.xsd</DependentUpon>
+    </None>
+    <None Include="room_booking.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>room_booking.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="room_booking.xss">
+      <DependentUpon>room_booking.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
